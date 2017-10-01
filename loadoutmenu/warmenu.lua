@@ -200,7 +200,7 @@ function WarMenu.CreateMenu(id, title)
     menus[id].menuTextColor = { r = 255, g = 255, b = 255, a = 255 }
     menus[id].menuSubTextColor = { r = 189, g = 189, b = 189, a = 255 }
     menus[id].menuFocusTextColor = { r = 0, g = 0, b = 0, a = 255 }
-    menus[id].menuFocusBackgroundColor = { r = 245, g = 245, b = 245, a = 255 }
+    menus[id].menuFocusBackgroundColor = { r = 100, g = 100, b = 100, a = 255 }
     menus[id].menuBackgroundColor = { r = 0, g = 0, b = 0, a = 160 }
 
     menus[id].subTitleBackgroundColor = { r = menus[id].menuBackgroundColor.r, g = menus[id].menuBackgroundColor.g, b = menus[id].menuBackgroundColor.b, a = 255 }
