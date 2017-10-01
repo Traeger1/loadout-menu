@@ -107,12 +107,16 @@ Citizen.CreateThread(function()
 
             WarMenu.Display()
         elseif IsControlJustReleased(0, 244) then --M by default
-            WarMenu.OpenMenu('loadout')
+            --WarMenu.OpenMenu('loadout')
         end
 
         Citizen.Wait(0)
     end
 end)
+
+RegisterCommand("loadouts", function()
+    WarMenu.OpenMenu('loadout')
+end, false)
 
 function setloadout(loadoutnum)
     local player = PlayerPedId()

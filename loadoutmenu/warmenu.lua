@@ -188,19 +188,19 @@ function WarMenu.CreateMenu(id, title)
 
     -- Top left corner
     menus[id].x = 0.7550
-	menus[id].y = 0.100
+    menus[id].y = 0.100
 
     menus[id].currentOption = 1
     menus[id].maxOptionCount = 15
 
     menus[id].titleFont = 1
-    menus[id].titleColor = { r = 255, g = 255, b = 255, a = 255 }
-    menus[id].titleBackgroundColor = { r = 179, g = 0, b = 255, a = 255 }
+    menus[id].titleColor = { r = 0, g = 0, b = 0, a = 255 }
+    menus[id].titleBackgroundColor = { r =100, g = 100, b = 100, a = 255 }
 
     menus[id].menuTextColor = { r = 255, g = 255, b = 255, a = 255 }
     menus[id].menuSubTextColor = { r = 189, g = 189, b = 189, a = 255 }
     menus[id].menuFocusTextColor = { r = 0, g = 0, b = 0, a = 255 }
-    menus[id].menuFocusBackgroundColor = { r = 179, g = 0, b = 255, a = 255 }
+    menus[id].menuFocusBackgroundColor = { r = 245, g = 245, b = 245, a = 255 }
     menus[id].menuBackgroundColor = { r = 0, g = 0, b = 0, a = 160 }
 
     menus[id].subTitleBackgroundColor = { r = menus[id].menuBackgroundColor.r, g = menus[id].menuBackgroundColor.g, b = menus[id].menuBackgroundColor.b, a = 255 }
